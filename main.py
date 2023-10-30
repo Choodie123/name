@@ -1,3 +1,6 @@
-for x in range(130, 151):
-    if x % 2 == 0:
-        print(x)
+pos = []
+for i in range(1, 13195):
+    if 13195 % i == 0:
+        pos.append(i)
+for x in pos:
+    ...
